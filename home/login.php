@@ -22,7 +22,7 @@
         </div>
 
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form action="#" method="POST" class="space-y-6">
+            <form action="private_includes/" method="POST" class="space-y-6">
                 <div>
                     <label for="email" class="block text-sm/6 font-medium text-gray-100">Email address</label>
                     <div class="mt-2">
