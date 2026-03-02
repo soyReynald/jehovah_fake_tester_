@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is this movie promoting the principle of Jesus Christ of Nazareth: Love?</title>
+</head>
+
+<body>
+    <main>
+        <h1>Choose between Jesus or FAKE Jesus</h1>
+        <p>"What profit is in having the whole world yet forbit your soul?"</p>
+        <iframe class="movie_fake" width="560" height="315" src="https://www.youtube.com/embed/2mgUPt2KI08?si=YjuXIeUmZtzZCMUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div id="confirm">
+            <h3>Confirmation</h3>
+            <p>Do you consider this movie as peaceful? (James 3:17)</p>
+            <button class="warning" onclick="confirmYes()">Yes</button>
+            <button onclick="confirmNo()">No</button>
+        </div>
+    </main>
+    <script>
+        //show the confirmation div
+
+        //redirect to the delete profile script
+        function confirmYes() {
+            // location.href = 'https://www.youtube.com/watch?v=KHaTXv3Nkco'; //# Later we will propuse to see this one
+            
+        }
+
+        //hide the confirmation div
+        function confirmNo() {
+            document.querySelector(".movie_fake").hidden = true;
+            window.setTimeout( function(){
+                 window.location = "https://www.youtube.com/watch?v=o-ZcbjLBtls";
+             }, 100 );
+        }
+    </script>
+</body>
+
+</html>
