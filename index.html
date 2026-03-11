@@ -19,6 +19,19 @@
             <button onclick="confirmNo()">No</button>
         </div>
 
+        <section style="display: block">
+            <h1>Choose between Jesus or FAKE Jesus</h1>
+            <p>"What profit is in having the whole world yet forbit your soul?"</p>
+            <iframe class="movie_fake_2_" width="560" height="315" src="https://www.youtube.com/embed/yf9jWonGL74?si=WtT0mlGkf_NCkG4-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div id="confirm">
+                <h3>Confirmation</h3>
+                <p>Do you consider this movie as peaceful? (Job 38:35, Matthew 13:19-23)</p>
+                <button class="warning" onclick="confirmYes2()">Yes</button>
+                <button onclick="confirmNo2()">No</button>
+            </div>
+
+        </section>
+
         <article style="display: none">
             <h2>One day with emotional blindness</h2>
 
@@ -56,6 +69,20 @@
             document.querySelector(".movie_fake").hidden = true;
             window.setTimeout( function(){
                  window.location = "https://www.youtube.com/watch?v=o-ZcbjLBtls";
+             }, 100 );
+        }
+
+        function confirmYes() {
+            // location.href = 'https://www.youtube.com/watch?v=KHaTXv3Nkco'; //# Later we will propuse to see this one
+            
+        }
+
+        //hide the confirmation div
+        // The appearence of sin: IS sin.
+        function confirmNo() {
+            document.querySelector(".movie_fake_2_").hidden = true;
+            window.setTimeout( function(){
+                 window.location = "https://www.youtube.com/watch?v=KHaTXv3Nkco";
              }, 100 );
         }
     </script>
